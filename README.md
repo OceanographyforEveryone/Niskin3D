@@ -13,6 +13,10 @@ Niskin3D is low-cost, open-source water sampler made primarily from 3D printed p
 
 The Niskin bottle, a seemingly simple tube designed to take water samples at discrete depths, is one of the most important tools of oceanography. Coupled with a CTD, an array of Niskin bottles fit into a rosette provides everything an oceanographer needs to profile the ocean. Niskin bottles are neither cheap nor particularly easy to use. A commercial rosette requires a decent-sized winch to launch and recover, which means you need a vessel and a crew to deploy. For Rogue Ecologist and citizen scientists, getting a high-quality, discrete water sample is a perpetual challenge. With tools like the OpenROV and the soon-to-be-completed EcoDrone, we wanted a Niskin bottle that was light weight and capable of being mounted on both underwater robots and quadcopters with ease.
 
+###Current Status
+
+The Niskin3D was successfully tested in the field in both salt and freshwater to depths of 140m. We need more field testing to find the limits of the device. We also need scaled-up versions of the Niskin3D that can handle larger water volumes, this will require a scaling and redesign of the 3D printer files to accomodate a larger-bore sampling tube. 
+
 ###Bill of Materials
 
 Almost all of the necessary parts can be found through Amazon. Visit our [Parts Depot](http://oceanographyforeveryone.com/depot.html) for the full list. 
