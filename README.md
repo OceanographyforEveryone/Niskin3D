@@ -49,3 +49,7 @@ Using your controller of choice, activate the servo. Both stoppers should slam s
 ###Acknowledgments 
 
 Design and testing of the Niskin3D conducted by Andrew Thaler.
+
+###Code of Conduct
+
+Please review our [Contributor Code of Conduct](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/CODE_OF_CONDUCT.md) prior to your first contribution. 
