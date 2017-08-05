@@ -5,25 +5,25 @@ Niskin3D
 
 [Video](https://www.youtube.com/watch?v=e1-1GPFx0Dg): 3D printable mini-Niskin bottle
 
-###Background
+### Background
 
 Niskin3D is low-cost, open-source water sampler made primarily from 3D printed parts and controlled by a simple servo. 
 
-###Overview
+### Overview
 
 The Niskin bottle, a seemingly simple tube designed to take water samples at discrete depths, is one of the most important tools of oceanography. Coupled with a CTD, an array of Niskin bottles fit into a rosette provides everything an oceanographer needs to profile the ocean. Niskin bottles are neither cheap nor particularly easy to use. A commercial rosette requires a decent-sized winch to launch and recover, which means you need a vessel and a crew to deploy. For Rogue Ecologist and citizen scientists, getting a high-quality, discrete water sample is a perpetual challenge. With tools like the OpenROV and the soon-to-be-completed EcoDrone, we wanted a Niskin bottle that was light weight and capable of being mounted on both underwater robots and quadcopters with ease.
 
-###Current Status
+### Current Status
 
 The Niskin3D was successfully tested in the field in both salt and freshwater to depths of 140m. We need more field testing to find the limits of the device. We also need scaled-up versions of the Niskin3D that can handle larger water volumes, this will require a scaling and redesign of the 3D printer files to accomodate a larger-bore sampling tube. 
 
-###Bill of Materials
+### Bill of Materials
 
 Almost all of the necessary parts can be found through Amazon. Visit our [Parts Depot](http://oceanographyforeveryone.com/depot.html) for the full list. 
 
 The Niskin3D uses the [OpenROV prototype underwater servo](http://store.openrov.com/collections/experimental/products/prototype-underwater-servo), though any other waterproof servo will also work, provided you adjust the size of the servo basket on the reciever. 
 
-###Build Instructions
+### Build Instructions
 
 Print out all the parts. If you want to mount the bottle to the payload bay of an OpenROV, print the NiskinOpenROVClip.stl file. While everything is printing, screw the crown bolts into the rubber stoppers, on both ends. Cut the polycarbonate tube to desired length, debur, and chamfer the inner edges to prevent the stoppers from catching.
 
@@ -33,23 +33,23 @@ Here’s the trick bit. One side of the receiver has a groove that allows the wi
 
 If you’re mounting to an OpenROV, mount the OpenROV clip to the front two bars of the payload bay and zip tie the bottle underneath.
 
-###Priming the trigger
+### Priming the trigger
 
 Pull the pin-side rubber stopper up through the catch as shown. Slide the pin into the receiver and rotate until the post comes up through the center hole. Rotate the trigger into place. Pull the rubber stopper off the catch and place it in the open position. The pin should lock in place. Now open the other stopper, slide the loop through the receiver slot, and loop it over the post on the pin. The pin will catch, rotate, and lock against the opposite side of the center hole. This positioning ensures that when the trigger is released, both end will be freed simultaneously.
 
-###Triggering
+### Triggering
 
 Using your controller of choice, activate the servo. Both stoppers should slam shut as soon as the trigger clears the pin.
 
-###Resources
+### Resources
 [Oceanography for Everyone](http://oceanographyforeveryone.com/)
 
 [Original Project Description](http://www.southernfriedscience.com/?p=18730)
 
-###Acknowledgments 
+### Acknowledgments 
 
 Design and testing of the Niskin3D conducted by Andrew Thaler.
 
-###Code of Conduct
+### Code of Conduct
 
 Please review our [Contributor Code of Conduct](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/CODE_OF_CONDUCT.md) prior to your first contribution. 
