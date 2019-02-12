@@ -1,50 +1,76 @@
 Niskin3D
 ========
 
-[Link](http://www.southernfriedscience.com/?p=18730): Southern Fried Science Project Description
-
-[Video](https://www.youtube.com/watch?v=e1-1GPFx0Dg): 3D printable mini-Niskin bottle
-
 ### Background
 
-Niskin3D is low-cost, open-source water sampler made primarily from 3D printed parts and controlled by a simple servo. 
+Niskin3D is low-cost, open-source water sampler made from 3D-printed parts and controlled by a waterproof servo. 
 
 ### Overview
 
-The Niskin bottle, a seemingly simple tube designed to take water samples at discrete depths, is one of the most important tools of oceanography. Coupled with a CTD, an array of Niskin bottles fit into a rosette provides everything an oceanographer needs to profile the ocean. Niskin bottles are neither cheap nor particularly easy to use. A commercial rosette requires a decent-sized winch to launch and recover, which means you need a vessel and a crew to deploy. For Rogue Ecologist and citizen scientists, getting a high-quality, discrete water sample is a perpetual challenge. With tools like the OpenROV and the soon-to-be-completed EcoDrone, we wanted a Niskin bottle that was light weight and capable of being mounted on both underwater robots and quadcopters with ease.
+The Niskin bottle, a seemingly simple tube designed to take water samples at discrete depths, is one of the most important tools of oceanography. Coupled with a CTD, an array of Niskin bottles fit into a rosette provides everything an oceanographer needs to profile the ocean. Niskin bottles are neither cheap nor particularly easy to use. A commercial rosette requires a winch to launch and recover, requiring both a vessel and a crew to deploy. For informal, unaffiliated, or unfunded researchers, as well as citizen scientists or any researcher working on a tight budget, getting high-quality, discrete water samples is an ongoing challenge. 
+
+The Niskin3D lowers the cost of discrete-depth water sampling and makes this common tool of oceanographic research available to anyone. 
 
 ### Current Status
 
-The Niskin3D was successfully tested in the field in both salt and freshwater to depths of 140m. We need more field testing to find the limits of the device. We also need scaled-up versions of the Niskin3D that can handle larger water volumes, this will require a scaling and redesign of the 3D printer files to accomodate a larger-bore sampling tube. 
+Undergoing major redesign as of 2/12/2019.
 
 ### Bill of Materials
 
-Almost all of the necessary parts can be found through Amazon. Visit our [Parts Depot](http://oceanographyforeveryone.com/depot.html) for the full list. 
+We use Amazon Affiliate links because the small kickback helps fund more projects like this, but almost everything can be sourced through hobby shops, hardware stores, and other retailers. These recommendations don't necessarily represent the cheapest prices but rather the actual components we bought for this project or the closest approximation we could find. Some components are batched and may be available elsewhere in smaller quantities. Other high-test line and elastics can be used in place of the monofilament and sligshot tubing. 
 
-The Niskin3D uses the [OpenROV prototype underwater servo](http://store.openrov.com/collections/experimental/products/prototype-underwater-servo), though any other waterproof servo will also work, provided you adjust the size of the servo basket on the reciever. 
+**Niskin3D Bottle and Trigger Mechanism**
+
+Part | Supplier | Price | Link
+--- | --- | --- | ---
+HiTec 32646W HS-646WP Water Proof Analog Servo (IP-67 Rated) | Amazon | $44.36 | https://amzn.to/2E60NLb
+Clear Polycarbonate Tubing, 1-1/8" ID, 1-1/4" OD, 1/16" Wall, 4' Length | Amazon | $11.72| https://amzn.to/2E66wRa
+Solid Rubber Stoppers - Size 6 | Amazon or local hardware store | $10.88 | https://amzn.to/2E6pEyw
+Eye Screw with 4mm hoop | Amazon or local hardware store | $6.89 | https://amzn.to/2MZxCwb
+150-lb Monofilament with 1.3mm Crimps | Amazon or local fishing store | $12.99 | https://amzn.to/2tmStAh
+3x5mm Natural Latex Rubber Band Tube Tubing for Slingshots | Amazon or local sportiing good store | $7.55 | https://amzn.to/2GGn57R
+8" Cable Ties | Amazon or local hardware store | $6.99 | https://amzn.to/2E7rf76
+
+**Niskin3D Control Box**
+
+Part | Supplier | Price | Link
+--- | --- | --- | ---
+Arduino Leonardo | Amazon or Arduino.org | $22.19 | https://amzn.to/2E66RDo
+2K Ohm Potentiometer | Amazon | $13.21 | https://amzn.to/2SGJUil
+Ribbon Cable | Amazon | $6.98 | https://amzn.to/2UPQDDK
+M3 Hex Socket Screws | Amazon | $10.99 | https://amzn.to/2GnfeN8
+
+Consumables include heat shrink tubing, solder, and hook-up wire. Tools include a crimper, flush cut pliers, hex wrench, and a soldering station. We recommend using PLA filament for the 3D-printable parts. 
 
 ### Build Instructions
 
-Print out all the parts. If you want to mount the bottle to the payload bay of an OpenROV, print the NiskinOpenROVClip.stl file. While everything is printing, screw the crown bolts into the rubber stoppers, on both ends. Cut the polycarbonate tube to desired length, debur, and chamfer the inner edges to prevent the stoppers from catching.
+**3D Printing.** Print all parts in [3D_Printer_Files](https://github.com/OceanographyforEveryone/Niskin3D/tree/master/3D_Printer_Files) (ignore the folder labelled old unless you want to build the original Niskin3D) using your prefered PLA filament. NiskinRecieverLinear.stl, PowerBox.stl, and PowerBoxBottom.stl should be printed at 200 micron resolution with 20% infill. All other components should be printed at 100 micro resolution with 100% infill. 
 
-Insert the servo into the trigger receiver such that the wires line up with the slot and hole. Mount the receiver to the center of the tube with zipties. Mount the end catches to the edges of the tube, making sure that they’re inline with the receiver. Tie off the elastic to one stopper and feed it through the tube. Tie off the elastic to the other stopper such that there’s enough tension to snap tight. Measure out enough fishing line that the stoppers are held open when the line is pulled to the center of the tube.
+**Servo Assembly.** Remove the included servo horn and slot the servo wheel onto the exposed metal gear. Use the included screw to secure the wheel. 
+![]()
 
-Here’s the trick bit. One side of the receiver has a groove that allows the wire from the servo to slide in. Tie the pin to the rubber stopper on the non-wire-side of the receiver, there’s a small notch that indicates where the pin should be tied. Tie a big loop in the other line. Mount the trigger underneath the plastic arm of the servo with a paperclip. Lock the servo arm in place such that when fully extended trigger-side, the trigger rests tightly in the vertical slot in the middle of the receiver. You may have to power on the servo to determine where the fully extended position is. Wire up the servo to your control unit of choice. Walt Holm has some excellent advice for connecting to an OpenROV control board.
+**Receiver Assembly.** Insert the servo into the reciever such that when holding the reciever with the trigger tube facing away from you, the servo wheel sits to the right of the trigger slot. Rotate the servo wheel counter-clockwise until it reaches its limit. Slot the trigger through the external trigger hole and across the servo wheel and just barely into the main trigger slot. The innermost tooth of the trigger should fully catch against the servo wheel. Secure the trigger to the reciever by looping monofilament through the hole in the trigger and the loop near the base of the reciever to prevent the trigger from being lost if it comes loose.
+![]()
 
-If you’re mounting to an OpenROV, mount the OpenROV clip to the front two bars of the payload bay and zip tie the bottle underneath.
+**Bottle Assembly.** Cut the polcarbonate tube to the deisred length. Screw the eye screws into the center of both faces of the rubber stopper. Crimp monofilament onto the wider face of each stopper. On one stopper, measure out enough line to reach the hole in the center of the reciever trigger tube and crimp a large loop into the monofilament. On the other stopper, measure out enough line to  reach the hole in the center of the reciever trigger tube with enough length the the pin can sit in the center of the trigger tube and crimp the monofilament around the pin with enough slack that the line can sit in the notch on the pin. 
+
+Measure out enough latex tubing that it can hold the two rubber stoppers tightly in the polycarbonate tube. On the inner face of one rubber stopper, ziptie the latex tubing to the eye bolt. Feed the latex tubing through the polycarbonate tube, pull it tight, and ziptie it to the inner eye bolt on the other rubber stopper. 
+
+**Power Box Assembly.** _Only do this if you need an independently-triggered Niskin bottle. Otherwise, connect the servo to the hardware of your choice using a standard servo interface._  Flash [NiskinServo.ino](https://github.com/OceanographyforEveryone/Niskin3D/tree/master/NiskinServo) to the Arduino. Solder header wires to the potentiometer. Screw the potentiometer into the large hole in the center of the Power Box Bottom. Connect the outer leads of the potentiometer to ground and Vin. Connect the center lead to Analog Pin 0. Measure out as much ribbon cable as you need for the servo. Feed ribbon cable through hole next to the spool on the case. Connect servo to ground and 5V. Connect signal line to Digital Pin 7. Close case and secure with M3 screws.
 
 ### Priming the trigger
 
-Pull the pin-side rubber stopper up through the catch as shown. Slide the pin into the receiver and rotate until the post comes up through the center hole. Rotate the trigger into place. Pull the rubber stopper off the catch and place it in the open position. The pin should lock in place. Now open the other stopper, slide the loop through the receiver slot, and loop it over the post on the pin. The pin will catch, rotate, and lock against the opposite side of the center hole. This positioning ensures that when the trigger is released, both end will be freed simultaneously.
-
 ### Triggering
 
-Using your controller of choice, activate the servo. Both stoppers should slam shut as soon as the trigger clears the pin.
+### Resources and Media
 
-### Resources
 [Oceanography for Everyone](http://oceanographyforeveryone.com/)
 
-[Original Project Description](http://www.southernfriedscience.com/?p=18730)
+[thingiverse]()
+
+[A 3D-printable, drone and ROV-mountable, water sampler](http://www.southernfriedscience.com/?p=18730)
+
+[new sfs post]()
 
 ### Acknowledgments 
 
