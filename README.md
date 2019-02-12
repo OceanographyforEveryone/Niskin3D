@@ -47,12 +47,20 @@ Consumables include heat shrink tubing, solder, and hook-up wire. Tools include 
 **3D Printing.** Print all parts in [3D_Printer_Files](https://github.com/OceanographyforEveryone/Niskin3D/tree/master/3D_Printer_Files) (ignore the folder labelled old unless you want to build the original Niskin3D) using your prefered PLA filament. NiskinRecieverLinear.stl, PowerBox.stl, and PowerBoxBottom.stl should be printed at 200 micron resolution with 20% infill. All other components should be printed at 100 micro resolution with 100% infill. 
 
 **Servo Assembly.** Remove the included servo horn and slot the servo wheel onto the exposed metal gear. Use the included screw to secure the wheel. 
-![]()
 
-**Receiver Assembly.** Insert the servo into the reciever such that when holding the reciever with the trigger tube facing away from you, the servo wheel sits to the right of the trigger slot. Rotate the servo wheel counter-clockwise until it reaches its limit. Slot the trigger through the external trigger hole and across the servo wheel and just barely into the main trigger slot. The innermost tooth of the trigger should fully catch against the servo wheel. Secure the trigger to the reciever by looping monofilament through the hole in the trigger and the loop near the base of the reciever to prevent the trigger from being lost if it comes loose.
-![]()
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_145143.jpg)
+
+**Receiver Assembly.** Insert the servo into the reciever such that when holding the reciever with the trigger tube facing away from you, the servo wheel sits to the right of the trigger slot. 
+
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_145200.jpg)
+
+Rotate the servo wheel counter-clockwise until it reaches its limit. Slot the trigger through the external trigger hole and across the servo wheel and just barely into the main trigger slot. The innermost tooth of the trigger should fully catch against the servo wheel. Secure the trigger to the reciever by looping monofilament through the hole in the trigger and the loop near the base of the reciever to prevent the trigger from being lost if it comes loose.
+
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_145215.jpg)
 
 **Bottle Assembly.** Cut the polcarbonate tube to the deisred length. Screw the eye screws into the center of both faces of the rubber stopper. Crimp monofilament onto the wider face of each stopper. On one stopper, measure out enough line to reach the hole in the center of the reciever trigger tube and crimp a large loop into the monofilament. On the other stopper, measure out enough line to  reach the hole in the center of the reciever trigger tube with enough length the the pin can sit in the center of the trigger tube and crimp the monofilament around the pin with enough slack that the line can sit in the notch on the pin. 
+
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_145313.jpg)
 
 Measure out enough latex tubing that it can hold the two rubber stoppers tightly in the polycarbonate tube. On the inner face of one rubber stopper, ziptie the latex tubing to the eye bolt. Feed the latex tubing through the polycarbonate tube, pull it tight, and ziptie it to the inner eye bolt on the other rubber stopper. 
 
