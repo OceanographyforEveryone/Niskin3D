@@ -66,9 +66,23 @@ Measure out enough latex tubing that it can hold the two rubber stoppers tightly
 
 **Power Box Assembly.** _Only do this if you need an independently-triggered Niskin bottle. Otherwise, connect the servo to the hardware of your choice using a standard servo interface._  Flash [NiskinServo.ino](https://github.com/OceanographyforEveryone/Niskin3D/tree/master/NiskinServo) to the Arduino. Solder header wires to the potentiometer. Screw the potentiometer into the large hole in the center of the Power Box Bottom. Connect the outer leads of the potentiometer to ground and Vin. Connect the center lead to Analog Pin 0. Measure out as much ribbon cable as you need for the servo. Feed ribbon cable through hole next to the spool on the case. Connect servo to ground and 5V. Connect signal line to Digital Pin 7. Close case and secure with M3 screws.
 
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_145938.jpg)
+
 ### Priming the trigger
 
+Pull the rubber stoppers out of the polycarbonate tube. Slot the pin into the trigger tube such that the point sticks up through the central hole. Rotate the servo clockwise to drive the trigger through the pin and into the wall of the trigger tube. Slot the loop on the other stopper through the trigger tube and over the pin such that it catches and rotates the pin towards the opposite rubber stopper. 
+
+![]()
+
+Ensure that the rubber stoppers are situated so that once the pin is released both stoppers will be pulled into the polycarbonate tube and seal it. 
+
+Your Niskin bottle is now primed. 
+
+![]()
+
 ### Triggering
+
+Activate the servo and rotate it counter-clockwise to pull the trigger and release the pin. 
 
 ### Resources and Media
 
