@@ -92,7 +92,7 @@ Activate the servo and rotate it counter-clockwise to pull the trigger and relea
 
 [A 3D-printable, drone and ROV-mountable, water sampler](http://www.southernfriedscience.com/?p=18730)
 
-[new sfs post]()
+[The next generation open-source, 3D-printable Niskin bottle has arrived!](http://www.southernfriedscience.com/the-next-generation-open-source-3d-printable-niskin-bottle-has-arrived/)
 
 ### Acknowledgments 
 
