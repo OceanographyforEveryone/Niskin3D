@@ -5,6 +5,8 @@ Niskin3D
 
 Niskin3D is low-cost, open-source water sampler made from 3D-printed parts and controlled by a waterproof servo. 
 
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_174718211.jpg)
+
 ### Overview
 
 The Niskin bottle, a seemingly simple tube designed to take water samples at discrete depths, is one of the most important tools of oceanography. Coupled with a CTD, an array of Niskin bottles fit into a rosette provides everything an oceanographer needs to profile the ocean. Niskin bottles are neither cheap nor particularly easy to use. A commercial rosette requires a winch to launch and recover, requiring both a vessel and a crew to deploy. For informal, unaffiliated, or unfunded researchers, as well as citizen scientists or any researcher working on a tight budget, getting high-quality, discrete water samples is an ongoing challenge. 
@@ -72,13 +74,11 @@ Measure out enough latex tubing that it can hold the two rubber stoppers tightly
 
 Pull the rubber stoppers out of the polycarbonate tube. Slot the pin into the trigger tube such that the point sticks up through the central hole. Rotate the servo clockwise to drive the trigger through the pin and into the wall of the trigger tube. Slot the loop on the other stopper through the trigger tube and over the pin such that it catches and rotates the pin towards the opposite rubber stopper. 
 
-![]()
+![](https://github.com/OceanographyforEveryone/Niskin3D/blob/master/Images/IMG_20190212_175831.jpg)
 
 Ensure that the rubber stoppers are situated so that once the pin is released both stoppers will be pulled into the polycarbonate tube and seal it. 
 
 Your Niskin bottle is now primed. 
-
-![]()
 
 ### Triggering
 
