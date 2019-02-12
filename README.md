@@ -88,7 +88,7 @@ Activate the servo and rotate it counter-clockwise to pull the trigger and relea
 
 [Oceanography for Everyone](http://oceanographyforeveryone.com/)
 
-[thingiverse]()
+[Niskin3D: the open-source water sampler]()
 
 [A 3D-printable, drone and ROV-mountable, water sampler](http://www.southernfriedscience.com/?p=18730)
 
