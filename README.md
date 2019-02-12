@@ -17,7 +17,7 @@ Undergoing major redesign as of 2/12/2019.
 
 ### Bill of Materials
 
-We use Amazon Affiliate links because the small kickback helps fund more projects like this, but almost everything can be sourced through hobby shops, hardware stores, and other retailers. These recommendations don't necessarily represent the cheapest pricesbut rather the actual components I bought for this project. Other high-test line and elestics can be used in place of the monofilament and sligshot tubing. 
+We use Amazon Affiliate links because the small kickback helps fund more projects like this, but almost everything can be sourced through hobby shops, hardware stores, and other retailers. These recommendations don't necessarily represent the cheapest prices but rather the actual components we bought for this project or the closest approximation we could find. Some components are batched and may be available elsewhere in smaller quantities. Other high-test line and elastics can be used in place of the monofilament and sligshot tubing. 
 
 **Niskin3D Bottle and Trigger Mechanism**
 
@@ -32,17 +32,20 @@ Eye Screw with 4mm hoop | Amazon or local hardware store | $6.89 | https://amzn.
 8" Cable Ties | Amazon or local hardware store | $6.99 | https://amzn.to/2E7rf76
 
 **Niskin3D Control Box**
-Arduino
-Potentiometer
-wire
-m3 screws
-heat shrink
+
+Part | Supplier | Price | Link
+--- | --- | --- | ---
+Arduino Leonardo | Amazon or Arduino.org | $22.19 | https://amzn.to/2E66RDo
+2K Ohm Potentiometer | Amazon | $13.21 | https://amzn.to/2SGJUil
+Ribbon Cable | Amazon | $6.98 | https://amzn.to/2UPQDDK
+M3 Hex Socket Screws | Amazon | $10.99 | https://amzn.to/2GnfeN8
+
+Consumables include heat shrink tubing, solder, and hook-up wire. Tools include a crimper, flush cut pliers, hex wrench, and a soldering station. 
 
 ### Build Instructions
 
 
 ### Priming the trigger
-
 
 ### Triggering
 
