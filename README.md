@@ -28,7 +28,7 @@ Part | Supplier | Price | Link
 HiTec 32646W HS-646WP Water Proof Analog Servo (IP-67 Rated) | Amazon | $44.36 | https://amzn.to/2E60NLb
 Clear Polycarbonate Tubing, 1-1/8" ID, 1-1/4" OD, 1/16" Wall, 4' Length | Amazon | $11.72| https://amzn.to/2E66wRa
 Solid Rubber Stoppers - Size 6 | Amazon or local hardware store | $10.88 | https://amzn.to/2E6pEyw
-Eye Screw with 4mm hoop | Amazon or local hardware store | $6.89 | https://amzn.to/2MZxCwb
+Eye Screw with 12mm hoop | Amazon or local hardware store | $6.89 | https://amzn.to/2U5frI4
 150-lb Monofilament with 1.3mm Crimps | Amazon or local fishing store | $12.99 | https://amzn.to/2tmStAh
 3x5mm Natural Latex Rubber Band Tube Tubing for Slingshots | Amazon or local sportiing good store | $7.55 | https://amzn.to/2GGn57R
 8" Cable Ties | Amazon or local hardware store | $6.99 | https://amzn.to/2E7rf76
